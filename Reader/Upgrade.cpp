@@ -38,7 +38,7 @@ void Upgrade::SetCheckVerTime(u32 *chktime)
 
 void Upgrade::Check(upgrade_callback_t cb, void *param)
 {
-    const char* url = "https://raw.githubusercontent.com/binbyu/Reader/master/version.json";
+    const char* url = "https://raw.githubusercontent.com/NanoKimi/Reader-kaiyuanreader/master/version.json";
     request_t req;
     u32 curtime;
 
